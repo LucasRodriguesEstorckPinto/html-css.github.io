@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            #  =  ID 
+            .  =  class
+            :  =  pseudo-class
+            :: = pseudo-element
+            >  =  children
+
+        */
+        
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color: aqua;
+        }
+
+        .especial::before {
+            content: '⇒ ';
+        }
+
+        .especial::after {
+            content: ' ⇐';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalisando links</h1>
+    <ul>
+        <li><a href="https://github.com/LucasRodriguesEstorckPinto" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.instagram.com/lucasrodrigues_es/" target="_blank" class="especial">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@jomaoppa" target="_blank">Site </a></li>
+        <h2>: = pseudo classe
+            :: =pseudo elemento
+        </h2>
+    </ul>
+</body>
+</html>
