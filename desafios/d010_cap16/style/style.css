@@ -10,6 +10,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #E8E6C3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -18,14 +20,16 @@ header {
     background: rgb(42,42,42);
     background: linear-gradient(0deg, rgba(42,42,42,1) 0%, rgba(40,159,92,1) 87%);
     color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
 }
 
 header > h1{
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     font-size: 40px;
     font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
 }
 
 header > h2 {
@@ -33,6 +37,8 @@ header > h2 {
     font-size: 16px;
     text-align: center;
     margin-bottom: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header > nav > a{
@@ -42,25 +48,74 @@ header > nav > a{
     font-weight: bold;
     font-size: 15px;
     padding: 10px;
+    border-radius: 6px;
 }
 
 header > nav > a:hover {
     background-color: #2FA866;
-    padding: 10px;
-    border-radius: 6px;
+    padding: 10px;  
     transition: 500ms;
 }
 
+/*página*/
+
 main {
     min-width: 400px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.411);
     padding: 20px;
+    background-color: white; 
 }
 
-h2#maintitle {
+main p {
+    text-indent: 30px;
+    word-spacing: 3px;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+main h2#maintitle {
     margin-top: 0px;
     font-family: idroid, serif;
     color: #063D1E;
+    font-weight: lighter;
 }
+
+main .subtitle {
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: idroid, serif;
+    color: #063D1E;
+    background: rgb(131,225,173);
+    background: linear-gradient(90deg, rgba(131,225,173,1) 41%, rgba(0,212,255,0) 100%);
+    padding: 2px;
+}
+
+main img.flex {
+    width: 100%;
+}
+
+main img.normal {
+    display: block;
+    margin: auto;
+}
+
+main .link {
+    text-decoration: none;
+    padding: 2px 6px;
+    background-color: #83E1AD;
+    font-weight: bold;
+    color: #063D1E;
+}
+
+main strong{
+    color: #1a5c37;
+}
+
+/*https://professorguanabara.github.io/projeto-android/*/
+
+
+
+
