@@ -7,7 +7,7 @@
 
 /*cabeçalho*/
 
-body {
+body{
     margin: 0;
     padding: 0;
     background-color: #E8E6C3;
@@ -43,7 +43,7 @@ header > h2 {
 
 header > nav > a{
     text-decoration: none;
-    color: rgb(151, 194, 169);
+    color: rgb(121, 219, 162);
     margin-right: 8px;
     font-weight: bold;
     font-size: 15px;
@@ -122,38 +122,49 @@ main div#video {
     background-color: #063D1E;
     padding: 20px;
     margin: 0px -20px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
 }
 
 main div#video >iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 90%;
     display: block;
     margin: auto;
+    }
+
+main aside {
+    background-color: #83E1AD;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+main aside > h3 {
+    background-color: #1a5c37;
+    padding: 10px;
+    color: white;
+    margin: -10px -10px;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+main aside > ul {
+    columns: 2;
+}
+
+main aside > ul li {
+    margin: 5px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*rodapé*/
 
 footer {
     background-color: #063D1E;
